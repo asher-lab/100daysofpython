@@ -31,7 +31,7 @@ def outer_function():
     nested_function()
 
 outer_function()
-
+print("===")
 ## Functions can be returned from other functions
 def outer_function():
     print("I'm outer")
@@ -43,3 +43,4 @@ def outer_function():
 
 inner_function = outer_function()
 inner_function
+inner_function()
